@@ -13,6 +13,6 @@ class AppConstants {
   static const String orDivider = 'or';
   static const String createAccount = 'Create new account';
   static const String createPageLabel = 'Create a Page';
-  static const String createPageSub = 'for a celebrity, brand or business.';
+  static const String createPageSub = 'Join the vast Meta community today and meet new people.';
   static const String metaFooter = 'Meta © 2024';
 }
