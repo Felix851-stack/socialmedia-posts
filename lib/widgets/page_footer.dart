@@ -12,8 +12,9 @@ class PageFooter extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+        Wrap(
+          alignment: WrapAlignment.center,
+          crossAxisAlignment: WrapCrossAlignment.center,
           children: [
             Text(
               '${AppConstants.createPageLabel} ',
@@ -25,6 +26,7 @@ class PageFooter extends StatelessWidget {
             ),
             Text(
               AppConstants.createPageSub,
+              textAlign: TextAlign.center,
               style: GoogleFonts.notoSans(
                 fontSize: 13,
                 color: AppColors.textSecondary,
